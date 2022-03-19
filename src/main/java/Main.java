@@ -38,7 +38,6 @@ public class Main {
             List<Employee> list = new ArrayList<>();
             for (Object object : array) {
                 list.add(gson.fromJson(object.toString(), Employee.class));
-
             }
             return list;
         } catch (Exception e) {
